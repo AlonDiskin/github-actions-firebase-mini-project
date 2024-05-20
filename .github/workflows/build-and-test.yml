@@ -22,7 +22,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build app apk
-        run: ./gradlew unitTests
+        run: ./gradlew app:assembleDebug
 
   unit-tests:
     runs-on: ubuntu-latest
