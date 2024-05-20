@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459392132163",
+    "project_id": "githubactionsminiproject",
+    "storage_bucket": "githubactionsminiproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459392132163:android:79342e1671d3ce66cd60f6",
+        "android_client_info": {
+          "package_name": "com.example.github_actions_firebase_mini_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVOSY5ci_zpT12XRCLO59nNgtLjnyTeEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
