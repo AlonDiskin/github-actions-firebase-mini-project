@@ -5,6 +5,8 @@ on: push
 jobs:
   build-app-e2e-tests:
     runs-on: ubuntu-latest
+    #  run job only on master branch
+    if: ${{ github.ref == 'refs/heads/master' }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
