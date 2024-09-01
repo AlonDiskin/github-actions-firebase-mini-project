@@ -21,6 +21,7 @@ junitParams = "1.1.1"
 mockWebServer = "3.9.1"
 okhttpLoggin = "3.9.1"
 gson = "2.8.6"
+greenCoffee = "3.6.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -42,6 +43,7 @@ junitParams = { group = "pl.pragmatists", name = "JUnitParams", version.ref = "j
 mockWebServer = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockWebServer" }
 okhttpLoggin = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttpLoggin" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+greenCoffee = { group = "com.github.mauriciotogneri", name = "green-coffee", version.ref = "greenCoffee" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
