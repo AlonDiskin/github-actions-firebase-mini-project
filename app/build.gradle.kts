@@ -68,7 +68,7 @@ dependencies {
     androidTestImplementation("androidx.test:runner:1.1.0")
 
     // Green coffee
-    androidTestImplementation("com.mauriciotogneri:greencoffee:3.5.0")
+    androidTestImplementation(libs.greenCoffee)
 
     // Google truth
     androidTestImplementation(libs.googleTruth)
@@ -117,7 +117,7 @@ dependencies {
     kaptTest("com.google.dagger:hilt-android-compiler:2.51.1")
 
     // Green coffee
-    testImplementation("com.mauriciotogneri:greencoffee:3.5.0")
+    testImplementation(libs.greenCoffee)
 
     // Rx
     testImplementation("io.reactivex.rxjava2:rxjava:2.2.19")
